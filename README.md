@@ -188,11 +188,7 @@ social-media-app
    git clone https://github.com/DeepakUp9/Codeial_Web_App
 ```
 
-**Into the project directory**
 
-```
-    cd social-media-app
-```
 
 **Install npn dependencies**
 
