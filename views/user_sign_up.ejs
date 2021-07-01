@@ -1,0 +1,72 @@
+
+
+
+<div class="canvasWrap">
+	<div class="container">
+	<p>Objects on screen: <span class="count"></span></p>
+	<form id="form">
+		<div class="formElem">		
+			<label for="speedSlider">Speed</label>
+			<input type="range" min="10" max="100" value="50" class="speedSlider" name="speedSlider">
+		</div>
+		<div class="formElem">
+			<label for="maxCountSlider">Max objects</label>
+			<input type="range" min="1" max="100" value="50" class="maxCountSlider" name="maxCountSlider">
+    
+		</div>
+	</form>
+
+  
+ 
+
+
+  <h1>Sing Up</h1>
+
+
+<link rel="stylesheet" href="/css/user_sign_up.css">
+
+
+
+
+<form action="/users/create" method="POST">
+  <input type="text" name="name" required placeholder="name">
+  <input type="email" name="email" required placeholder="Your Email">
+  <input type="password" name="password" required placeholder="password">
+  <input type="password" name="confirm_password" required placeholder="Confirm password">
+
+  <input type="submit" value="Sign Up">
+
+
+</form>
+
+
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+<div class="google-btn">
+  <div class="google-icon-wrapper">
+    <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+  </div>
+  <p class="btn-text"><a href="/users/auth/google"><b>Sign in with google</b> </a></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+	<canvas id="animBg"></canvas>
+</div>
+
+
+<script src="/js/Rondom_motion.js"></script>

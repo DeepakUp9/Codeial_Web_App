@@ -1,0 +1,100 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
+<!-- CHANGE :: Creat the code for chat box -->
+<% if (locals.user){ %>
+	<div id="user-chat-box">
+		<ul id="chat-messages-list">
+			<li class="other-message">
+				<span>Other Message</span>
+			</li>
+			<li class="self-message">
+				<span>
+					Self Message
+				</span>
+				
+			</li>
+
+		</ul>
+		<div id="chat-message-input-container">
+			<input id="chat-message-input" placeholder="Type message here">
+			<button id="send-message">Send</button>
+		</div>
+
+	</div>
+<% } %>
+
+
+
+
+
+
+
+
+
+<!-- Deepak -->
+   <!-- <% if (locals.user){%>
+<button class="chatbox-open">
+    <i class="fa fa-comment fa-2x" aria-hidden="true"></i>
+  </button>
+<button class="chatbox-close">
+    <i class="fa fa-close fa-2x" aria-hidden="true"></i>
+  </button>
+<section class="chatbox-popup">
+  <header class="chatbox-popup__header">
+    <aside style="flex:3">
+      <i class="fa fa-user-circle fa-6x chatbox-popup__avatar" aria-hidden="true" ></i>
+      <img src="<%= user.avatar %>" alt="<%= user.name %>" width="100" height="100"  style="border-radius:200px; margin-left: -12px; margin-top: -12px;">
+    </aside>
+    <aside style="flex:8">
+      <h1><%= locals.user.name %></h1>(Online)
+    </aside>
+    <aside style="flex:1">
+      <button class="chatbox-maximize"><i class="fa fa-window-maximize" aria-hidden="true"></i></button>
+    </aside>
+  </header>
+  <main class="chatbox-popup__main">
+    We make it simple and seamless for<br> bussiness and people to talk to each<br> other. Ask us anything.
+  </main>
+  <footer class="chatbox-popup__footer">
+    <aside style="flex:1;color:#888;text-align:center;">
+      <i class="fa fa-camera" aria-hidden="true"></i>
+    </aside>
+    <aside style="flex:10">
+      <textarea type="text" placeholder="Type your message here..." autofocus></textarea>
+    </aside>
+    <aside style="flex:1;color:#888;text-align:center;">
+      <i class="fa fa-paper-plane" aria-hidden="true"></i>
+    </aside>
+  </footer>
+</section>
+<section class="chatbox-panel">
+  <header class="chatbox-panel__header">
+    <aside style="flex:3">
+      <!-- <i class="fa fa-user-circle fa-3x chatbox-popup__avatar" aria-hidden="true"></i> -->
+      <!-- <img src="<%= user.avatar %>" alt="<%= user.name %>" width="160" height="160"  style="border-radius:200px;">
+    </aside>
+    <aside style="flex:6">
+      <h1><%= locals.user.name %></h1>(Online)
+    </aside>
+    <aside style="flex:3;text-align:right;">
+      <button class="chatbox-minimize"><i class="fa fa-window-restore" aria-hidden="true"></i></button>
+      <button class="chatbox-panel-close"><i class="fa fa-close" aria-hidden="true"></i></button>
+    </aside>
+  </header>
+  <main class="chatbox-panel__main" style="flex:1">
+    We make it simple and seamless for<br> bussiness and people to talk to each<br> other. Ask us anything.
+  </main>
+  <footer class="chatbox-panel__footer">
+    <aside style="flex:1;color:#888;text-align:center;">
+      <i class="fa fa-camera" aria-hidden="true"></i>
+    </aside>
+    <aside style="flex:10">
+      <textarea type="text" placeholder="Type your message here..." autofocus></textarea>
+    </aside>
+    <aside style="flex:1;color:#888;text-align:center;">
+      <i class="fa fa-paper-plane" aria-hidden="true"></i>
+    </aside>
+  </footer>
+</section>
+<%}%> --> 
