@@ -250,3 +250,22 @@ social-media-app
 - GET -> **/api/v1/user/profile/userId** (to get the information of other user .paste the id of **other user** instead of **userId**).
 - Delete -> **/api/v1/user/profile/me** (to delete the current user from database and also all activity deleted).
 - PATCH -> **/api/v1/user/profile/me** (to update the current profile like name,email,photo).
+
+
+Created Codeial web application inspired by
+the facebook. Here a user can signup, sign in
+and logout.functionality of the project :-
+• Server side has been handled using ExpressJs
+and front end using EJS, and database being
+used is MongoDB.
+• It implements the passport js strategy for an
+individual’s authentication and Authoriza-
+tion. For social authentication that is sign-
+ing through google, it applies the passport-
+google-oauth2 strategy.
+• Nodemailer and Kuejs is used for sending
+emails and notifications.
+• User can chat with his friends, library used is
+socket.io to implement real time chat feature.
+• Upload files with using multer. and JWT for
+creating token
